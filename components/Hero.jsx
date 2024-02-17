@@ -54,7 +54,7 @@ const Hero = () => {
 
             <div><Dropdown4 /></div>
             <div><Dropdown5 /></div>
-            <p className="text-white">CONTACTS</p>
+            <p className="text-white pl-[20px] pt-[3px]">CONTACTS</p>
 
           </div>
           <div className="pr-[30px]">
@@ -324,19 +324,19 @@ const Hero = () => {
         </div>
 
 
-        <div className="max-w-[1100px]  pt-[100px]  flex w-full mx-auto">
-          <div className="flex max-w-[550px] w-full justify-between">
+        <div className="max-w-[1100px]  px-[15px]   pt-[100px]  xl:flex w-full mx-auto">
+          <div className="md:flex md:justify-center  mx-auto max-w-[550px] w-full justify-between">
             <div>
               <Image src={srceen1} width={200} height={500} />
             </div>
-            <div>
+            <div className="pl-[50px] max-md:pt-[50px]">
               <p className="text-[20px] text-[#b1adad] ">UPTO 60% OFF</p>
               <p className="text-[45px] pt-[20px] font-extrabold">Offer Sale <br /> Today </p>
               <button className='w-[250px] h-[70px]  text-[20px] mt-[40px]'> SHOP NOW  </button>
             </div>
           </div>
 
-          <div className=" max-w-[550px]   pl-[100px] w-full justify-between">
+          <div className=" max-w-[550px] mx-auto    max-xl:pt-[100px]  md:pl-[100px] w-full justify-between">
             <div>
               <Image src={srceen2} width={500} height={500} />
             </div>

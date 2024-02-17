@@ -25,7 +25,7 @@ function Dropdown() {
                         <Listbox.Button className="  border-[rgba(0,0,0,0.26)]   relative  cursor-default    text-left focus:outline-none  sm:text-sm max-w-[348px] w-full ">
                             <span className="block truncate  text-white font-normal text-[16px]">{selected.name}</span>
                             <span
-                                className={`pointer-events-none pt-[-20px] absolute inset-y-0 right-0 flex items-center  ${op ? "-rotate-180" : ""
+                                className={`pointer-events-none pt-[-20px] absolute inset-y-0 right-0 flex items-center  ${op ? "-rotate[-180]" : ""
                                     }`}
                             >
                                 <Doticon />
@@ -37,7 +37,7 @@ function Dropdown() {
                             leaveFrom="opacity-100"
                             leaveTo="opacity-0"
                         >
-                            <Listbox.Options className="absolute  mt-1 ] max-h-60 w-full overflow-auto    rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-none sm:text-sm ">
+                            <Listbox.Options className="absolute  mt-1    overflow-auto  w-[200px]   rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-none sm:text-sm ">
                                 {people.map((person, personIdx) => (
                                     <Listbox.Option
                                         key={personIdx}
